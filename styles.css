@@ -1,0 +1,91 @@
+/* Michael Mouet's Website CSS Project 3*/
+
+body {
+  background-color: lightgray;
+}
+
+
+
+
+.portrait {
+  margin: 2em 0px 0px 1em;
+}
+
+.popular-posts {
+  background-color: white;
+  padding: 1em;
+  margin: 2em 0px 0px 1em;
+}
+
+.popular-images {
+  padding: 1em;
+}
+
+
+
+#ouroboros {
+  max-width: 50%;
+}
+
+#hello-world-container {
+  background-color: white;
+  padding: 2em 5em;
+  margin: 2em 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+/* Small Screen Queries*/
+
+/* `xs` returns only a ruleset and no media query */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+.portrait {
+  margin: 2em 0px 0px 0em;
+}
+
+.popular-images {
+  padding: 1em 0px 0px 0px;
+}
+
+.popular-posts {
+  background-color: white;
+  padding: 1em;
+  margin: 2em 0px 0px 0px;
+}
+
+#images-container {
+  padding: 0px;
+}
+
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
